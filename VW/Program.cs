@@ -1,15 +1,15 @@
 ﻿Console.Clear();
 string FillText(string text, int wordCount)
 {
-    string librarySymbol = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";//библиотека символов
+    string librarySymbol = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
     for (int i = 0; i < wordCount; i++)
     {
         string word = String.Empty;
-        int wordLength = new Random().Next(1, 15); //рандомна длина слова
+        int wordLength = new Random().Next(1, 15); 
         for (int j = 0; j < wordLength; j++)
         {
-            word = word + librarySymbol[new Random().Next(0, 62)]; //сбор слова из символов
+            word = word + librarySymbol[new Random().Next(0, 62)];
         }
         text += word + " ";
     }
@@ -26,7 +26,6 @@ for(int index = 0; index < text.Length; index++)
 {
     char symbol = text[index];
     bool flag = symbol >= '0' && symbol <= '9';
-    Console.WriteLine($"flag: {flag}");
     if (flag == false)
     {
         newText = newText + text[index];
@@ -36,9 +35,10 @@ for(int index = 0; index < text.Length; index++)
 return newText;
 }
 
-int wordCount = new Random().Next(2, 30);//рандомное количество слов
+int wordCount = new Random().Next(2, 30);
 string text = String.Empty;
 text = FillText(text, wordCount);
 Console.WriteLine(PrintText(text));
+Console.WriteLine();
 string newText = DelNumber(text);
 Console.WriteLine(PrintText(newText));

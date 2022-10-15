@@ -25,3 +25,16 @@ int wordCount = new Random().Next(2, 30);//рандомное количеств
 string text = String.Empty;
 text = FillText(text, wordCount);
 Console.WriteLine(PrintText(text));
+string newText = String.Empty;
+for(int index = 0; index < text.Length; index++)
+{
+    char symbol = text[index];
+    bool flag = symbol >= '0' && symbol <= '9';
+    Console.WriteLine($"flag: {flag}");
+    if (flag == false)
+    {
+        newText = newText + text[index];
+    }
+   
+}
+ Console.WriteLine(PrintText(newText));

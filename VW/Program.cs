@@ -19,12 +19,8 @@ string PrintText(string text)
 {
     return "|" + String.Join(' ', text) + "|";
 }
-
-int wordCount = new Random().Next(2, 30);//рандомное количество слов
-
-string text = String.Empty;
-text = FillText(text, wordCount);
-Console.WriteLine(PrintText(text));
+string DelNumber(string text)
+{
 string newText = String.Empty;
 for(int index = 0; index < text.Length; index++)
 {
@@ -37,4 +33,12 @@ for(int index = 0; index < text.Length; index++)
     }
    
 }
- Console.WriteLine(PrintText(newText));
+return newText;
+}
+
+int wordCount = new Random().Next(2, 30);//рандомное количество слов
+string text = String.Empty;
+text = FillText(text, wordCount);
+Console.WriteLine(PrintText(text));
+string newText = DelNumber(text);
+Console.WriteLine(PrintText(newText));

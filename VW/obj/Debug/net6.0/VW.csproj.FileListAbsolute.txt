@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\GB\VerificationWork\VW\bin\Debug\net6.0\VW.exe
+C:\Users\User\Desktop\GB\VerificationWork\VW\bin\Debug\net6.0\VW.deps.json
+C:\Users\User\Desktop\GB\VerificationWork\VW\bin\Debug\net6.0\VW.runtimeconfig.json
+C:\Users\User\Desktop\GB\VerificationWork\VW\bin\Debug\net6.0\VW.dll
+C:\Users\User\Desktop\GB\VerificationWork\VW\bin\Debug\net6.0\VW.pdb
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.AssemblyInfo.cs
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.dll
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\refint\VW.dll
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.pdb
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\VW.genruntimeconfig.cache
+C:\Users\User\Desktop\GB\VerificationWork\VW\obj\Debug\net6.0\ref\VW.dll
